@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(59, 56, 56);
+  color: white;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #a6a6a6;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+
+.navBar {
+  background: #262626;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0 0 2px white;
+}
+
+.searchInp {
+  background: #0d0d0d; 
+  border: none;
+  height: 30px;
+  width: 40%;
+  box-shadow: 0 0 1px #727171;
+  color: whitesmoke;
+}
+
+.searchBtn {
+  background: #333333; 
+  border: none;
+  font-weight: 100;
+  height: 29px;
+}
+
+.fa-search:hover {
+  color: rgb(179, 179, 179);
+  transition: 0.3s;
+}
+
+.fa-search {
+  color:  #727171;
+  font-weight: lighter;
+}
+
+.logoText {
+  font-family: 'Oswald';
+}
+
+
+.card{
+  margin: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: 0.4s ease-in-out !important;
+  padding: 0%;
+}
+
+.card-img-top{
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.card-body{
+  padding: 0.5rem;
+}
+
+.card-img-top:hover,.card-title:hover{
+  box-shadow: none !important;
+  border: none;
+}
+
+.card h6{
+  font-weight: bold;
+
+}
